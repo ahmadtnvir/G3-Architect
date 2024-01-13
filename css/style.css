@@ -2,23 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
-.nav-title,
+/* .nav-title,
 .nav-items {
   width: 50%;
+} */
+
+header{
+  background: rgba(255, 144, 14, 0.10);
+  padding: 10px;
 }
 
+/* This is navbar section */
 .navbar-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 25px 50px;
+  /* border: 2px solid blue; experiment */
 }
 
 .nav-title {
-  border: 2px solid red; /*experiment*/
-  font-family: "Work Sans", sans-serif;
+  /* border: 2px solid red; experiment */
+  width: 50%;
   color: #131313;
   font-size: 45px;
   font-weight: 700;
@@ -26,7 +34,8 @@
 }
 
 .nav-items {
-  border: 2px solid green; /*experiment*/
+  width: 32%;
+  /* border: 2px solid green; experiment */
 }
 
 .nav-items > ul {
@@ -39,7 +48,54 @@
 .nav-items > ul > li > a {
   text-decoration: none;
   color: #424242;
-  font-family: "Work Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
+}
+
+/* This is branding section */
+.branding-section{
+  /* border: 2px solid blueviolet; experiment                   */
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.branding-section-container{
+  /* padding: 5px; */
+  /* border: 2px solid yellow; */
+}
+
+.branding-section-title{
+  color: #131313;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.branding-section-description{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 20px;
+}
+
+.explore-btn{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #ff900e;
+}
+
+
+.banner-section{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.banner-section img {
+  width: 100%;
 }
